@@ -1,0 +1,146 @@
+* {
+	box-sizing: border-box;
+}
+
+body{
+	font-family: Helvetica, Arial, sans-serif;
+	margin: 0px;
+	background-image: url('../img/background.jpg');
+	background-size: 100%;
+	font-size: 12px
+}
+
+img {
+	width: 100%;
+}
+
+nav {
+	background-color: #555;
+}
+
+nav ul {
+	float: right;
+
+}
+
+nav img {
+	width: 45px;
+	margin: 15px;
+}
+
+ul li {
+	display: inline-block;
+	margin: 15px;
+}
+
+a {
+	color: #aaa;
+	text-decoration: none;
+}
+
+ul li a {
+	border: 1px solid #f0f0f0;
+	padding: 15px;
+	color: white;
+	transition: all .5s ease;
+}
+
+ul li a:hover {
+	background-color: rgba(200,200,200,0.5);
+	/*font-size: 20px */
+}
+
+.poster-wrapper div {
+	width:33%;
+	display: inline-block;
+	text-align: center;
+	padding: 25px;
+	position: relative;
+	transition: all 1s ease;
+	opacity: 0.8;
+}
+
+.poster-wrapper div img {
+	border: 5px solid white;
+}
+
+.poster-wrapper div:hover {
+	padding: 0px;
+	opacity: 1;
+}
+
+.poster-wrapper div h2 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 30px;
+	color: white;
+	margin: 0;
+}
+
+.form-container {
+	width:50%;
+	max-width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	background-color: rgba(0,0,0,.3);
+	color: #f0f0f0;
+	padding: 30px;
+}
+
+.form-container label {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+.form-container input,
+.form-container textarea, 
+.form-container button,
+.form-container select {
+	width: 100%;
+	font-size: 1rem;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid #fff;
+}
+
+.form-container button {
+	background-color: #0055ff;
+	color: white;
+	border: none;
+	margin-top: 20px;
+	padding: 15px;
+}
+
+table {
+	border-spacing: 0;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	border: 1px solid #333;
+}
+
+table th, table td {
+	border: 1px solid #333;
+	padding: 10px;
+}
+
+table th {
+	font-weight: bold;
+}
+
+table td {
+	font-weight: thin;
+}
+
+table tr td button {
+	background-color: #0055ff;
+	color: white;
+	border:none;
+	padding: 10px;
+	cursor:pointer;
+}
